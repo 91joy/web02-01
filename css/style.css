@@ -1,0 +1,90 @@
+/* html{
+    margin-top: -20px;
+} */
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+header{
+    background: #9DC3C1;
+    border-radius: 0 0 20px 20px;
+}
+header h1{
+    display: block;
+    text-align: center;
+}
+header h1,h3,h4{
+    background: #9DC3C1;
+    color: #444950;
+    padding: 10px;
+}
+.topbar{
+    display: flex;
+    background: #77aaad;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+.topbar li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border: 2px solid #77aaad;
+}
+.topbar li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px 10px;
+}
+.topbar li a:hover{
+    color: #77aaad;
+    background: #fff;
+    border-radius: 20px 0 20px 0;
+}
+.content{
+    display: flex;
+}
+.content section{
+    width: 70%;
+    /* border-right: 1px dashed #444950; */
+}
+.content section h3{
+    width: 40%;
+    border-radius: 20px 0;
+    padding-left: 30px;
+}
+.content section p{
+    padding: 0 25px 0 5px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+.content section img,.content section audio{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.content aside{
+    width: 28%;
+    border-left: 1px dashed #444950;
+    padding-left: 2%;
+}
+.content aside h3{
+    width: 85%;
+    border-radius: 20px 0;
+    padding-left: 30px;
+}
+.content aside ul li{
+    list-style: circle;
+}
+.content aside ul li a{
+    text-decoration: none;
+    color: rosybrown;
+}
+iframe{
+    padding-left: 50px;
+}
+footer{
+    background: #9DC3C1;
+    height: 50px;
+    padding-top: 1px;
+    margin-top: 30px;
+}
